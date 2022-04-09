@@ -1,7 +1,7 @@
 //https://meet.google.com/ohx-gpni-tpw
 
 int R,C,L;
-
+void setup()
 {
   int i;
   for(i=8;i<=10;i++)
@@ -23,7 +23,7 @@ void loop(void)
   Serial.print("Left - ");
   Serial.println(L);
   Serial.println();
-  advance(255, 255);
+  
 
 
 }
